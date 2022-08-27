@@ -14,10 +14,10 @@
 </template>
 
 <script lang='ts'>
-export default {
-  name: 'DemoDialog',
-  data: () => ({
-    dialog: false,
-  }),
-};
+import { Component, Vue } from 'vue-property-decorator';
+
+@Component
+export default class DemoDialog extends Vue {
+  private dialog: boolean = false;
+}
 </script>
