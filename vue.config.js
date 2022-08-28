@@ -5,7 +5,9 @@ module.exports = defineConfig({
   css: {
     extract: false
   },
-  // configureWebpack: {
-  //   externals: ['vue']
-  // }
+  configureWebpack: {
+    externals: {
+      vue: 'Vue',
+    }
+  }
 });
