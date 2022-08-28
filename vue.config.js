@@ -6,8 +6,8 @@ module.exports = defineConfig({
     extract: false
   },
   configureWebpack: {
-    externals: {
-      vue: 'Vue',
-    }
+    externals: [
+      'vuetify',
+    ]
   }
 });

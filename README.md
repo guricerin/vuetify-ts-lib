@@ -36,8 +36,6 @@ npm publish # 2回目以降
 
 ### Version up
 
-with ``git commit`` automatically. 
-
 ```bash
 npm version patch # + 0.0.1
 npm version minor # + 0.1.0
