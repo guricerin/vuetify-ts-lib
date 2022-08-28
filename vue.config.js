@@ -5,9 +5,9 @@ module.exports = defineConfig({
   css: {
     extract: false
   },
-  configureWebpack: {
-    externals: [
-      'vuetify',
-    ]
-  }
+  // configureWebpack: {
+  //   externals: [
+  //     'vuetify',
+  //   ]
+  // }
 });
