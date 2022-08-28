@@ -13,7 +13,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "clean": "rm -rf ./node_modules && rm -f package-lock.json",
+    "clean": "rm -rf ./node_modules",
     "prepare": "npm run pack",
     "pack": "npm run tsc && npm run build-lib",
     "tsc": "rm -rf ./types && tsc",
