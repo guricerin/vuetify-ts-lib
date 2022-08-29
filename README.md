@@ -1,6 +1,10 @@
 # vuetify-ts-lib
 
-library template with vue2 + typescript + vuetify.  
+Library template with vue2 + typescript + vuetify.  
+
+## Env
+
+- vue-cli v5.0.8
 
 ## Project setup
 ```
@@ -30,6 +34,8 @@ npm run lint
 ## Publish to npm registory
 
 ```bash
+npm login
+...
 npm publish --access=public # 初回のみ
 npm publish # 2回目以降
 ```
